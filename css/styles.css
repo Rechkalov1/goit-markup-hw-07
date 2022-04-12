@@ -385,6 +385,9 @@ a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-join {
+  margin-left: 70px;
+}
 .footer-nav__website {
   font-family: var(--second-style);
 
@@ -421,7 +424,7 @@ a {
 .adress__item {
   margin-bottom: 9px;
 }
-.adress-t__item:last-child {
+.adress__item:last-child {
   margin-bottom: 0px;
 }
 .header__website {
@@ -457,10 +460,10 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-down-info:hover {
+.adress__contact-info:hover {
   color: var(--color-blue);
 }
-.contact-down-info:active {
+.adress__contact-info:active {
   color: var(--color-blue);
 }
 
@@ -589,10 +592,10 @@ a {
   margin-left: 30px;
 }
 
-.footer-join {
+.footer-title {
   margin-left: 70px;
 }
-.footer__join {
+.footer__title {
   font-family: var(--font-style);
 
   font-weight: var(--second-font-weight);
@@ -613,7 +616,7 @@ a {
   display: block;
   fill: var(--color-white);
 }
-.footer-join-link {
+.footer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -845,6 +848,17 @@ a {
 .section-sub {
   margin-left: 93px;
 }
+.sub__title {
+  font-family: var(--font-style);
+
+  font-weight: var(--second-font-weight);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--color-white);
+}
 .icon-send {
   position: relative;
 
@@ -854,7 +868,7 @@ a {
   display: block;
   fill: var(--color-white);
 }
-.list-mail {
+.sub__list-mail {
   display: flex;
 
   width: 570px;
@@ -863,7 +877,7 @@ a {
 .icon-link {
   display: block;
 }
-.input {
+.sub__input {
   width: 358px;
   height: 50px;
   color: var(--color-white);
@@ -875,7 +889,7 @@ a {
   padding: 16px 12px;
   transition: border-color 250ms var(--transition-timing-func);
 }
-.input:focus {
+.sub__input:focus {
   border: 1px solid #2196f3;
 }
 .form {
