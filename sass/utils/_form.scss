@@ -1,42 +1,66 @@
-.section-sub {
-  margin-left: 93px;
+.form {
+  margin-right: auto;
+  margin-left: auto;
 }
-.sub__title {
-  font-family: $font-style;
-  font-weight: $second-font-weight;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  color: $color-white;
-}
-.sub__list-mail {
-  display: flex;
-  width: 570px;
-  height: 86px;
-}
-.sub__input {
-  width: 358px;
-  height: 50px;
-  color: $color-white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+.form-input {
+  width: 448px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: transparent;
-  padding: 16px 12px;
+  padding-left: 40px;
   transition: border-color 250ms $transition-timing-func;
-}
-.icon-send {
-  position: relative;
-  left: 10px;
-  width: 24px;
-  height: 24px;
-  display: block;
-  fill: $color-white;
+  &:focus-within > .form-image {
+    fill: $color-blue;
+  }
 }
 
+.form-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &:focus-within > .form-image {
+    fill: $color-blue;
+  }
+  &:focus-within > .form-input {
+    border: 1px solid #2196f3;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
+
+.form-image {
+  position: absolute;
+  top: 44%;
+  left: 4.25%;
+  width: 18px;
+  height: 18px;
+  transition: fill 250ms var(--transition-timing-func);
+}
+.form-label {
+  font-family: var(--font-style);
+
+  font-weight: var(--font-weight);
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--main-color);
+  margin-bottom: 4px;
+}
+.form-text {
+  font-family: var(--font-style);
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 12px;
+
+  color: var(--second-color);
+}
 .textarea {
   width: 448px;
   height: 120px;
