@@ -1,0 +1,50 @@
+.section-sub {
+  margin-left: 93px;
+}
+.sub__title {
+  font-family: $font-style;
+  font-weight: $second-font-weight;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: $color-white;
+}
+.sub__list-mail {
+  display: flex;
+  width: 570px;
+  height: 86px;
+}
+.sub__input {
+  width: 358px;
+  height: 50px;
+  color: $color-white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 16px 12px;
+  transition: border-color 250ms $transition-timing-func;
+}
+.icon-send {
+  position: relative;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  display: block;
+  fill: $color-white;
+}
+
+.textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
