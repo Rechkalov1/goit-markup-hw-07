@@ -1049,7 +1049,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: var(--color-white);
+  color: #ffffff;
 }
 
 .icon-send {
