@@ -355,7 +355,7 @@ body {
   height: 4px;
 }
 
-.current {
+.site-nav__link.current {
   color: #2196f3;
 }
 

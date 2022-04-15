@@ -56,8 +56,10 @@
     height: 4px;
   }
 }
-.current {
-  color: $color-blue;
+.site-nav__link {
+  &.current {
+    color: $color-blue;
+  }
 }
 .site-nav__link {
   position: relative;
